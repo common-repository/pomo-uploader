@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PoMo Uploader\n"
+"POT-Creation-Date: 2021-01-02 22:04+0900\n"
+"PO-Revision-Date: 2021-01-02 22:05+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pomo-uploader.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: pomo-uploader.php:32
+msgid "Upload a File"
+msgstr "ファイルのアップロード"
+
+#: pomo-uploader.php:33
+msgid ""
+"You can upload .po and/or .mo files to the wp-content/languages/plugins "
+"directory"
+msgstr ""
+".po と .mo ファイルを wp-content/languages/plugins ディレクトリにアップロー"
+"ドできます"
+
+#: pomo-uploader.php:36
+msgid "File to be uploaded"
+msgstr "アップロードするファイル"
+
+#: pomo-uploader.php:37
+msgid "URL for ZIP File"
+msgstr "ZIPファイルのURL"
+
+#: pomo-uploader.php:38
+msgid "Overwrite if the file exists"
+msgstr "ファイルを上書きする"
+
+#: pomo-uploader.php:40
+msgid "Upload"
+msgstr "アップロード"
+
+#: pomo-uploader.php:43
+msgid "Remove Files"
+msgstr "ファイルの削除"
+
+#: pomo-uploader.php:44
+msgid ""
+"You can remove the selected files from the wp-content/languages/plugins "
+"directory"
+msgstr ""
+".po と .mo ファイルを wp-content/languages/plugins ディレクトリから削除でき"
+"ます"
+
+#: pomo-uploader.php:45
+msgid "Are you sure you want to remove?"
+msgstr "本当に削除しますか？"
+
+#: pomo-uploader.php:51
+msgid "Remove"
+msgstr "削除"
+
+#: pomo-uploader.php:79
+#, php-format
+msgid "%s removed"
+msgstr "%s は削除されました"
+
+#: pomo-uploader.php:101 pomo-uploader.php:144
+#, php-format
+msgid "%s uploaded"
+msgstr "%s はアップロードされました"
+
+#: pomo-uploader.php:104
+msgid "error while saving"
+msgstr "ファイルの保存でエラーが発生しました"
+
+#: pomo-uploader.php:107 pomo-uploader.php:149
+#, php-format
+msgid ""
+"%s cannot be overwritten. If you want to overwrite, please check the check "
+"box."
+msgstr ""
+"%s は上書きできません。上書きしたい場合はチェックボックスをチェックしてくだ"
+"さい。"
+
+#: pomo-uploader.php:110
+#, php-format
+msgid ""
+"%s cannot be uploaded. Only files with the extension po or mo can be "
+"uploaded."
+msgstr ""
+"%s はアップロードできません。アップロードできるのは拡張子がpoかmoのファイル"
+"だけです。"
+
+#: pomo-uploader.php:146
+#, php-format
+msgid "%s failed to upload"
+msgstr "%s のアップロードに失敗しました"
+
+#: pomo-uploader.php:153
+msgid "Failed to unzip"
+msgstr "ZIPファイルの解凍に失敗しました"
+
+#: pomo-uploader.php:156
+#, php-format
+msgid "Failed to download zip file from %s"
+msgstr "%s からZIPファイルをダウンロードできません"
+
+#. Plugin Name of the plugin/theme
+msgid "PoMo Uploader"
+msgstr "PoMo Uploader"
+
+#. Plugin URI of the plugin/theme
+msgid "https://matically.jp/pomo-uploader/"
+msgstr "https://matically.jp/pomo-uploader/"
+
+#. Description of the plugin/theme
+msgid "Upload PO MO files"
+msgstr "PO MO ファイルをアップロードします"
+
+#. Author of the plugin/theme
+msgid "Matically"
+msgstr "Matically"
+
+#. Author URI of the plugin/theme
+msgid "https://matically.jp/"
+msgstr "https://matically.jp/"
